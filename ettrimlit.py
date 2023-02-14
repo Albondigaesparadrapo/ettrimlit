@@ -23,4 +23,4 @@ if resultado=="-":
 if resultado=="*":
 	st.write(num1*num2)
 if resultado=="/":
-	st.write(num1*num2)
+	st.write(num1/num2)
