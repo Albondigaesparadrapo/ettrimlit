@@ -8,5 +8,18 @@ st.info("Esto es solo para informar. Qué inútil")
 st.warning("CUIDADO")
 st.error("Yo te avise")
 
-st.camera_input("sí.")
-st.warning("Tu cara sí que es un error.")
+num1 = st.number_input("First number")
+num2 = st.number_input("Second number")
+
+resultado = st.radio("+","-","*","/")
+
+st.write(num1,resultado,num2,"=")
+
+if resultado=="+":
+	st.write(num1+num2)
+if resultado=="-":
+	st.write(num1-num2)
+if resultado=="*":
+	st.write(num1*num2)
+if resultado=="/":
+	st.write(num1*num2)
