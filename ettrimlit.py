@@ -7,3 +7,6 @@ st.success("Acsión exitosa :3")
 st.info("Esto es solo para informar. Qué inútil")
 st.warning("CUIDADO")
 st.error("Yo te avise")
+
+st.camera_input
+st.warning("Tu cara sí que es un error.")
