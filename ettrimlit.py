@@ -25,5 +25,5 @@ if resultado=="*":
 if resultado=="/":
 	if num2 != 0:
 		st.write(num1/num2)
-	elseif num2 == 0:
+	elif num2 == 0:
 		st.write("No puedes dividir entre 0.")
