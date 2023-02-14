@@ -11,7 +11,8 @@ st.error("Yo te avise")
 num1 = st.number_input("First number")
 num2 = st.number_input("Second number")
 
-resultado = st.radio("+","-","*","/")
+signos = ("+","-","*","/")
+resultado = st.radio("Signos",signos)
 
 st.write(num1,resultado,num2,"=")
 
