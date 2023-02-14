@@ -23,4 +23,7 @@ if resultado=="-":
 if resultado=="*":
 	st.write(num1*num2)
 if resultado=="/":
-	st.write(num1/num2)
+	if num2 != 0:
+		st.write(num1/num2)
+	elseif num2 == 0:
+		st.write("No puedes dividir entre 0.")
