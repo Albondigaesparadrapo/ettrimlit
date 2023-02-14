@@ -8,5 +8,5 @@ st.info("Esto es solo para informar. Qué inútil")
 st.warning("CUIDADO")
 st.error("Yo te avise")
 
-st.camera_input
+st.camera_input("sí.")
 st.warning("Tu cara sí que es un error.")
